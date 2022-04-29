@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온라인 프로필</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        a, a:visited {
+            color: #222;    /*글자색*/
+            text-decoration: none;  /*밑줄없앰*/
+        }
+        #sns > ul {
+            padding-left: 0; /*목록 들여쓰지 않기*/
+        }
+        #sns > ul > li {
+            display: inline-block;  /*항목 가로로 배열*/
+            width: 80px;    /*각 항목의 너비*/
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <!-- 자기소개-->
+        <aside>
+            <div id="namecard">
+                <img src="images/KakaoTalk_20200517_173927706_011.png" alt="" width="200">
+                <h1>Yeojin Kwon</h1>
+                <p>오늘은 남은 인생이 시작되는 첫째날</p>
+            </div>
+            <div id="detail">
+                <p>Daegu, Korea</p>
+                <p>mamon0429@gmail.com</p>
+            </div>
+            <div id="sns">
+                <h2>SNS</h2>
+                <ul>
+                    <li>
+                        <a href="http://www.facebook.com/" target="_blank">facebook</a>
+                    </li>
+                    <li>
+                        <a href="http://www.twitter.com/">twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+    <div id="main">
+            <!-- ctrl+ / : 주석 => 웹 화면에 적용되지 않는  설명글 -->
+         
+            <section>
+                <h2 class="subtitle">Who am I?</h2>
+                <p>프론트엔드/백엔드 웹 기술(Front-End Web Tech.)에 관심이 많습니다.<br>
+                    현재 자바기반 웹 개발자 관련 공부 중입니다.</p>
+            </section>
+            <!-- 경력 -->
+            <section>
+                <h2 class="subtitle">Experience</h2>
+                <ul>
+                    <li>프론트엔드 개발</li>
+                        <ul>
+                            <li>업무 내용 업무 내용 업무 내용</li>
+                            <li>업무 내용</li>
+                            <li>업무 내용 업무 내용</li>
+                        </ul>
+                    </li>
+                    <li>웹 디자인</li>
+                        <ul>
+                            <li>업무 내용</li>
+                            <li>업무 내용 업무 내용</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <!-- 숙련도 -->
+            <section>
+                <h2 class="subtitle">Skills</h2>
+                <ul>
+                    <li>사용언어</li>
+                        <ul>
+                            <li>html&CSS</li>
+                            <li>javascript&jquery</li>
+                        </ul>
+                    </li>
+                    <li>사용 툴
+                        <ul>
+                            <li>visual studio code</li>
+                            <li>photo shop</li>
+                            <li>eclipse</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <!-- 학력 -->
+            <section>
+                <h2 class="subtitle">Education</h2>
+            </section>
+            <table border="1">
+                <caption>학력사항</caption>
+                <thead>
+                    <tr>
+                        <th>출신학교</th>
+                        <th>전공</th>
+                        <th>기간</th>
+                        <th>구분</th>
+                    </tr>
+                    <tr>
+                        <td>강동고등학교</td>
+                        <td> </td>
+                        <td>2015.02~2018.02</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>대구한의대학교</td>
+                        <td>미술치료학과</td>
+                        <td>2018.02~2022.02</td>
+                        <td></td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
